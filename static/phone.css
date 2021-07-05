@@ -1,0 +1,76 @@
+@media all and (max-width: 1300px)  {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    #navbar{
+        flex-direction: column;
+    
+    }
+    #navbar ul{
+        justify-content: center;
+    }
+
+    #missionsSection{
+        height: auto;
+    }
+    #missionsSection h1{
+        font-size: 40px;
+    }
+
+    .card{
+        display:inline-block;
+        margin: 20px 18px;
+        border: 2px solid black;
+        border-radius: 15px;
+        width: 70%;
+        height: 220px;
+    }
+    .card h3{
+        text-align: center;
+        padding: 5px;
+        font-size: 30px;
+    }
+    .center{
+        position: relative;
+        left: 90px;
+    }
+    .card-box{
+        align-content: center;
+    }   
+    .card-img{
+        height: 120px;
+        padding: 0 14px;
+        filter: contrast(2);
+    }
+    .card-img img{
+        height: inherit;
+    }
+    .card-content{
+        padding: 0 15px;
+        font-size: 22px;
+    } 
+    #sponsorsSection{
+        height:400px;
+        background-color:#525556;
+    }
+    #sponsorsSection h1{
+        text-align: center;
+        padding-top: 10px;
+        font-size: 40px;
+    }
+    #sponsors{
+        /* display: flex; */
+        max-width: 1000px;
+        margin: 10px auto;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+    }
+    .spimage{
+        /* width: 40%; */
+        padding: 10px 140px;
+        height: 70%;
+    }
+
+
+}
